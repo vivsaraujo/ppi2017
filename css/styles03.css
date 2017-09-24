@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+
+
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: #66c2ff;
+}
+
+img{
+	float: left;
+	
+}
+
+h2, h3 {
+	font-family: sans-serif;
+	font-size: 24px;
+	text-align: right;
+    overflow: hidden;
+}
+footer{
+text-align: center;
+font-family: sans-serif;
+	font-size: 14px;
+
+}
+
+nav {
+    float: left;
+	padding: 1em;
+   
+}
+
+nav ul {
+    list-style-type: none;
+	padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    border-left: 1px solid gray;
+	padding: 1em;
+    overflow: hidden;
+}
